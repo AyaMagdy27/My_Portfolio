@@ -3,6 +3,9 @@ import Hero from "./Component/Hero"
 import About from "./Component/about"
 import TechIcons from "./Component/TechIcons"
 import Experience from "./Component/Experience"
+import Eduction from "./Component/Eduction"
+import Skills from "./Component/Skills"
+
 const App = () => {
   return (
     <div className="overflow-x-hidden">  
@@ -17,9 +20,11 @@ const App = () => {
         <About />
         <TechIcons />
         <Experience />
+        <Eduction />
+        <Skills />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default App

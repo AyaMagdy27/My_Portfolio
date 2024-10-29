@@ -3,8 +3,6 @@ import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
 
 export const PERSONAL_INFO = {
-  name: "Aya Magdy Abdelaziz Mohamed",
-  title: "Software Engineer",
   email: "ayamagdy2025@gmail.com",
   phone: "+201555117246",
   location: "New Cairo, Egypt",
@@ -25,7 +23,6 @@ the latest industry trends and best practices. I am excited about the opportunit
 to contribute to innovative projects and help drive digital transformation.`;
 
 export const SKILLS = {
-  languages: ["HTML5", "CSS3", "JavaScript (ES6+)", "Bootstrap", "tailwind CSS" , "ReactJS", "Angular CLI" , "TypeScript" , "C++" , "CS50"],
   expertise: [
     "Responsive design",
     "Mobile-first development",
