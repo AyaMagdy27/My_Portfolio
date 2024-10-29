@@ -6,6 +6,7 @@ import Experience from "./Component/Experience"
 import Eduction from "./Component/Eduction"
 import Skills from "./Component/Skills"
 import Certification from "./Component/Certification"
+import Contact from "./Component/Contact"
 
 const App = () => {
   return (
@@ -21,10 +22,10 @@ const App = () => {
         <About />
         <TechIcons />
         <Experience />
-        
         <Skills />
         <Eduction />
         <Certification />
+        <Contact />
       </div>
     </div>
   );

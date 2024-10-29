@@ -14,7 +14,7 @@ const Navbar = () => {
             <div >
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl px-8">
-                <FaLinkedin color='rgb(59 7 100)' />
+                <FaLinkedin color='rgb(59 7 100)'/>
                 <FaGithubSquare color='rgb(59 7 100)' />
                 <SiNetlify color='rgb(59 7 100)'/>
                 <FaSquareWhatsapp color='rgb(59 7 100)' />
