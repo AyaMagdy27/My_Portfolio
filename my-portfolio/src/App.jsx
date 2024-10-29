@@ -5,6 +5,7 @@ import TechIcons from "./Component/TechIcons"
 import Experience from "./Component/Experience"
 import Eduction from "./Component/Eduction"
 import Skills from "./Component/Skills"
+import Certification from "./Component/Certification"
 
 const App = () => {
   return (
@@ -20,8 +21,10 @@ const App = () => {
         <About />
         <TechIcons />
         <Experience />
-        <Eduction />
+        
         <Skills />
+        <Eduction />
+        <Certification />
       </div>
     </div>
   );

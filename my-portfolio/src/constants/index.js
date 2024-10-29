@@ -65,7 +65,7 @@ export const EDUCATION = [
 ];
 
 export const CERTIFICATIONS = [
-  "Software  Engineer – ALX – ReactJs",
-  "Frontend Web Development - Angular – MCIT",
-  "AI Career Essentials – ALX",
+  { title: "Software Engineer", institution: "ALX", date: "ReactJs" },
+  { title: "Frontend Developer", institution: "MCIT", date: "Angular" },
+  { title: "AI Career Essentials", institution: "ALX", date: "" },
 ];
