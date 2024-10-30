@@ -29,7 +29,7 @@ const Skills = () => {
                     <motion.h3
                         whileInView={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: -100 }}
-                        transition={{ duration: 1.5 }}
+                        transition={{ duration: 1.5, delay: 1.5 }}
                         className="text-2xl font-semibold text-purple-950 mb-6">Expertise</motion.h3>
                     <div className="flex flex-wrap gap-3">
                         {SKILLS.expertise.map((skill, index) => (
@@ -51,7 +51,7 @@ const Skills = () => {
                     <motion.h3
                         whileInView={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: -100 }}
-                        transition={{ duration: 1.5 }}
+                        transition={{ duration: 1.5,  delay: 1.5 }}
                         className="text-2xl font-semibold text-purple-950 mb-6">Tools</motion.h3>
                     <div className="flex flex-wrap gap-3">
                         {SKILLS.tools.map((tool, index) => (
