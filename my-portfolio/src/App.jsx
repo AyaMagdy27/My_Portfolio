@@ -14,10 +14,10 @@ const App = () => {
       <div className="fixed top-0 -z-10 h-full w-full">
         <div className="absolute top-0 z-[-2] h-screen w-screen bg-bg-sp bg-[radial-gradient(100%_50%_at_50%_0%,rgba(153,102,255,0.1)_0%,rgba(153,102,255,0)_60%)]"></div>
       </div>
-      <div className="fixed top-0 z-50 h-full w-full">
-          <Navbar />
+      <div className="h-full w-full">
+         <Navbar />
         </div>
-      <div className="container w-full mx-auto px-8 mt-44">
+      <div className="container w-full mx-auto px-4 antialiased selection:bg-purple-200">
         <Hero />
         <About />
         <TechIcons />

@@ -32,7 +32,7 @@ const Certification = () => {
                         variants={certificationMotion(2.5, index % 2 === 1)}
                         initial="initial"
                         animate="animate"
-                    key={index} className="bg-white shadow-lg shadow-violet-400 500/50 p-4 rounded-lg w-1/4">
+                    key={index} className="bg-white shadow-lg shadow-violet-400 500/50 p-4 mb-10 rounded-lg lg:w-1/4 md:w-11/12 sm:w-11/12  ">
                         <p className="text-lg font-semibold">{item.title}</p>
                         <p className="text-sm text-gray-500">{item.institution}</p>
                         <p className="text-sm text-gray-500">{item.date}</p>

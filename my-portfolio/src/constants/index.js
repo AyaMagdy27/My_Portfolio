@@ -5,8 +5,8 @@ import project3 from "../assets/projects/project3.png";
 export const PERSONAL_INFO = {
   email: "ayamagdy2025@gmail.com",
   phone: "+201555117246",
-  location: "New Cairo, Egypt",
-  linkedin: "Aya Magdy",
+  whatsapp: "201555117246",
+  linkedin: "aya-magdy-15811b271",
   github: "AyaMagdy27",
 };
 
@@ -32,32 +32,33 @@ export const SKILLS = {
   ],
   tools: ["Figma", "Google Workspace", "Netlify", "GitHub", "Visual Studio Code" , "Bash"],
 };
-
 export const PROJECTS = [
   {
     title: "Lady E-commerce Website",
     image: project1,
     description: `Developed a dynamic e-commerce platform using ReactJS, incorporating product listings, 
     a user-friendly shopping interface, and secure payment gateways.`,
-    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"]
+    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+    url: "https://your-lady-ecommerce-website.netlify.app" // Add the actual URL here
   },
   {
     title: "HealthCare Clinical Website",
     image: project2,
     description: `Built a responsive website for a healthcare clinic, integrating features such as appointment 
     scheduling and healthcare services while ensuring a clean UI and easy accessibility.`,
-    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"]
-
+    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+    url: "https://your-healthcare-clinical-website.netlify.app" // Add the actual URL here
   },
   {
     title: "Timeless Watch E-commerce Website",
     image: project3,
     description: `Created a luxury e-commerce website for a watch brand, focusing on elegant design and optimized 
     performance across desktop and mobile platforms.`,
-    technologies: ["HTML5", "CSS3", "JavaScript", "TypeScript" , "Angular CLI"]
-
+    technologies: ["HTML5", "CSS3", "JavaScript", "TypeScript", "Angular CLI"],
+    url: "https://your-timeless-watch-ecommerce-website.netlify.app" // Add the actual URL here
   },
 ];
+
 
 export const EDUCATION = [
   "Ongoing Diploma in Software Engineering, Cairo University, Cairo, Egypt",
