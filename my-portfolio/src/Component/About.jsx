@@ -1,5 +1,6 @@
 import about from '../assets/about.jpg';
 import { ABOUT_TXT } from '../constants';
+import { motion } from "framer-motion";
 const About = () => {
     return (
         <div className="pb-4">

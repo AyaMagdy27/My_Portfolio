@@ -1,4 +1,5 @@
 import { SKILLS } from '../constants';
+import { motion } from "framer-motion";
 
 const Skills = () => {
     return (

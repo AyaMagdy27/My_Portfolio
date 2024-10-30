@@ -1,4 +1,5 @@
-import { CERTIFICATIONS } from "../constants"
+import { CERTIFICATIONS } from "../constants";
+import { motion } from "framer-motion";
 const Certification = () => {
     return (
         <div className="p-8">

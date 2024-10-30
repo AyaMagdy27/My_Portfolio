@@ -4,6 +4,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaPhoneSquare } from 'react-icons/fa';
 import { SiNetlify } from "react-icons/si";
 import { FaSquareWhatsapp } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
     return (

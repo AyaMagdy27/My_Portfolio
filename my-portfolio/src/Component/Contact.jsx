@@ -1,9 +1,11 @@
 import { PERSONAL_INFO } from "../constants";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
+
 
 const Contact = () => {
     return (
-        <div className="p-8 bg-gray-100 ">
+        <div className="p-8 bg-gray-100 antialiased selection:bg-purple-200">
             <h2 className="my-10 text-center text-4xl font-bold text-purple-950">Contact Information</h2>
             <div className="flex flex-col items-center space-y-4">
                 {/* Email */}

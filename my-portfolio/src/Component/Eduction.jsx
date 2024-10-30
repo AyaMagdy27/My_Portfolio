@@ -1,4 +1,5 @@
-import { EDUCATION } from "../constants"
+import { EDUCATION } from "../constants";
+import { motion } from "framer-motion";
 const Eduction = () => {
     return (
         <div>

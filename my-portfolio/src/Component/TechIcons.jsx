@@ -6,6 +6,7 @@ import { RiJavascriptLine } from 'react-icons/ri';
 import { RiBootstrapLine } from 'react-icons/ri';
 import { RiTailwindCssLine } from 'react-icons/ri';
 import { SiTypescript } from 'react-icons/si';
+import { motion } from "framer-motion";
 const TechIcons = () => {
     return (
         <div className="pb-24">
