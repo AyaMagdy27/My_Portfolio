@@ -39,7 +39,7 @@ export const PROJECTS = [
     description: `Developed a dynamic e-commerce platform using ReactJS, incorporating product listings, 
     a user-friendly shopping interface, and secure payment gateways.`,
     technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
-    url: "https://your-lady-ecommerce-website.netlify.app" // Add the actual URL here
+    url: "https://classy-figolla-cc60c8.netlify.app/" // Add the actual URL here
   },
   {
     title: "HealthCare Clinical Website",
@@ -47,7 +47,7 @@ export const PROJECTS = [
     description: `Built a responsive website for a healthcare clinic, integrating features such as appointment 
     scheduling and healthcare services while ensuring a clean UI and easy accessibility.`,
     technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
-    url: "https://your-healthcare-clinical-website.netlify.app" // Add the actual URL here
+    url: "https://healthcareclinic33.netlify.app/" // Add the actual URL here
   },
   {
     title: "Timeless Watch E-commerce Website",
@@ -55,7 +55,7 @@ export const PROJECTS = [
     description: `Created a luxury e-commerce website for a watch brand, focusing on elegant design and optimized 
     performance across desktop and mobile platforms.`,
     technologies: ["HTML5", "CSS3", "JavaScript", "TypeScript", "Angular CLI"],
-    url: "https://your-timeless-watch-ecommerce-website.netlify.app" // Add the actual URL here
+    url: "https://6710b12a21719f9c0b533a68-timeless202.netlify.app/" // Add the actual URL here
   },
 ];
 

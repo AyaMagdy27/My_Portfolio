@@ -45,7 +45,9 @@ const Experience = () => {
                             className="w-full h-48 object-cover rounded-md mb-4"
                         />
                         <h3 className="text-2xl font-semibold text-purple-950 mb-2">
-                            {project.title}
+                            <a href={project.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                                {project.title}
+                            </a>
                         </h3>
                         <p className="text-purple-950 mb-4">{project.description}</p>
                         <div>
